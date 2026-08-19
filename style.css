@@ -90,3 +90,23 @@ nav a:hover {
     margin-right: 1%;
     box-sizing: border-box;
 }
+#section3 {
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    margin: 30px auto;
+    width: 80%;
+}
+
+.section3-content {
+    padding: 30px;
+}
+
+#section3 ul {
+    list-style-type: square;
+}
+
+#section3 ol {
+    list-style-type: upper-roman;
+    background-color: #eaeded;
+    padding: 20px 40px;
+}
