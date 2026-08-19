@@ -35,3 +35,26 @@ nav a {
 nav a:hover {
     color: var(--accent-color);
 }
+#section1 {
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    margin: 90px auto 30px;
+    width: 80%;
+
+}
+.section1-content{
+    position: relative;
+    padding: 30 px;
+}
+.featured{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--accent-color);
+    color:#e4f0ee;
+    padding: 5px 15px;
+}
+
+#section1 p {
+    color: var(--primary-color);
+}
