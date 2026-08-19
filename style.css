@@ -58,3 +58,35 @@ nav a:hover {
 #section1 p {
     color: var(--primary-color);
 }
+#section2 {
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    margin: 30px auto;
+    width: 80%;
+}
+
+.section2-content {
+    padding: 20px;
+}
+
+.sticky-header {
+    position: sticky;
+    top: var(--nav-height);
+    background-color: var(--primary-color);
+    color: var(--link-color);
+    padding: 10px;
+}
+
+.boxes {
+    white-space: nowrap;
+}
+
+.box {
+    display: inline-block;
+    background-color: var(--box-color);
+    color: var(--primary-color);
+    width: 30%;
+    padding: 12px;
+    margin-right: 1%;
+    box-sizing: border-box;
+}
