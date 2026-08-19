@@ -9,9 +9,14 @@
 }
 
 body {
-    background-color: var(--bg-color);
     margin: 0;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: Arial, sans-serif;
+    padding-top: var(--nav-height);
 }
+
+
 
 nav {
     position: fixed;
@@ -27,78 +32,82 @@ nav div {
     display: inline-block;
 }
 
+nav div:first-child {
+    float: left;
+}
+
+nav div:last-child {
+    float: right;
+}
+
 nav a {
+    display: inline-block;
     color: var(--link-color);
     text-decoration: none;
+    padding: 20px 24px;
 }
 
 nav a:hover {
     color: var(--accent-color);
 }
+
+
 #section1 {
+    position: relative;
     background-color: var(--card-color);
     color: var(--primary-color);
-    margin: 90px auto 30px;
     width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+}
 
-}
-.section1-content{
-    position: relative;
-    padding: 30 px;
-}
-.featured{ 
+.featured {
     position: absolute;
-    top: 0;
+    top: -15px;
     right: 0;
     background-color: var(--accent-color);
-    color:#e4f0ee;
-    padding: 5px 15px;
+    color: var(--link-color);
+    padding: 8px 20px;
 }
 
-#section1 p {
-    color: var(--primary-color);
-}
 #section2 {
     background-color: var(--card-color);
     color: var(--primary-color);
-    margin: 30px auto;
     width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
 }
 
-.section2-content {
-    padding: 20px;
-}
-
-.sticky-header {
+#section2 .sticky-header {
     position: sticky;
     top: var(--nav-height);
     background-color: var(--primary-color);
     color: var(--link-color);
-    padding: 10px;
+    padding: 10px 15px;
+    font-size: 24px;
 }
 
-.boxes {
-    white-space: nowrap;
-}
-
-.box {
+#section2 .box {
     display: inline-block;
     background-color: var(--box-color);
     color: var(--primary-color);
     width: 30%;
-    padding: 12px;
+    padding: 20px;
     margin-right: 1%;
     box-sizing: border-box;
 }
+
+
+
 #section3 {
     background-color: var(--card-color);
     color: var(--primary-color);
-    margin: 30px auto;
     width: 80%;
-}
-
-.section3-content {
-    padding: 30px;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
 }
 
 #section3 ul {
